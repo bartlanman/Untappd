@@ -90,7 +90,7 @@ Containers are standardized to "12oz Can 6 Pack" and "12oz Can Case"; prices are
 
 | Section | Beer | 6-pack (or 4-pack) | Case |
 |---|---|---|---|
-| 6 Pack Cans 12oz | Baby Bask | $10.99 | $43.70 |
+| 6 Pack Cans 12oz | Baby Bask | $11.50 | $43.70 |
 | 6 Pack Cans 12oz | Cactus Garden | $11.50 | $43.70 |
 | 6 Pack Cans 12oz | Golden Child | $11.50 | $43.70 |
 | 6 Pack Cans 12oz | Our Daily Pils | $10.99 | $39.90 |
@@ -99,7 +99,9 @@ Containers are standardized to "12oz Can 6 Pack" and "12oz Can Case"; prices are
 | 4 Pack Cans 16oz | Bask DIPA | $14.99 (4-pack) | $85.44 |
 
 - **Removed Nov 8 (in Menu History):** Mayor of Munich, Brujula and Gringo.
-- **Price oddity:** Toast prices the Baby Bask case at $43.70 although its 6-pack is $10.99. Every other $10.99 beer has a $39.90 case. Check which is right.
+- **Baby Bask price change (Nov 8):** now $11.50 a 6-pack and $43.70 a case, set by Bart.
+  - Updated in Untappd and in Toast (SIX BABY BASK SESSION).
+  - The Toast change still needs **Publish** before it reaches the registers.
 
 ### Packaged sales: Toast Product Mix, Nov 1–8, 2026 ("Taproom Packaged Beer")
 | Item (Toast name) | Qty | Price | Gross | Discounts | Net |
@@ -151,7 +153,7 @@ Each item needs Bart's OK before it's changed.
    - DB 4 is **Untitled Art New Zealand Lager** at 25%, standing in for Zealandia.
    - Toast's Zealandia IPA 16, 8, 4 and 24oz buttons are relinked from Lady IPA to it.
    - Crispy Bask's buttons already point to Crispy Bask Lager.
-   - **Still open:** Falcon Smash's four Tap Room buttons (16, 8, 4, 24oz) are **not linked** in BeerSAVER LINKING, so its taproom sales don't count against DB 2.
+   - Falcon Smash's four Tap Room buttons (16, 8, 4, 24oz) were not linked to anything. They're now linked to Falcon Smash Triple Crossing (done Nov 8), so taproom sales count against DB 2.
 2. **Low kegs.** Pils (19%), Cactus Garden (21%) and Blood Orange Gose (27%). Load the replacements into On Deck.
 3. **Zealandia's ABV is blank in the Untappd database.** Fix it on the brewery page.
 4. **Guest beer names.** Untappd puts "Guest Tap! –" in front of guest beer names. A separate "Guest Taps" section is the alternative.
@@ -174,9 +176,10 @@ Each item needs Bart's OK before it's changed.
 
 ### Linking Toast buttons in BeerSAVER (LINKING page)
 1. Filter the category to **Tap Room Beers** and set the page size to 100.
-2. **Tick the row's checkbox** to make its dropdowns editable.
-3. Pick the beverage and size.
-4. Click **Save Changes**.
+2. Pick the target line in the **Tap** dropdown at the top. That sets the beverage that ticked rows will link to.
+3. **Tick each row's checkbox.** The row fills in that beverage and guesses a size.
+4. **Check the size.** The 24oz rows tend to default to "5 oz 4"; set them to "24 oz 24".
+5. Click **Save Changes**, then reload to confirm.
 
 - Only beverages already on the inventory list appear in the dropdowns.
 - The beverage search on the keg UPDATE page also reaches BeerSAVER's global catalog. That's how "Untitled Art New Zealand Lager" was found.
