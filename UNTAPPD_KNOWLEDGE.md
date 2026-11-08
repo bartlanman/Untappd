@@ -64,20 +64,22 @@ The working reference for running Basic City's Untappd for Business (UTFB) accou
 | 10 | Brujula Mexican Lager | Brujula Mexican Lager | Brujula | $7.00 / 3.50 / 2.25 | 86% |
 | 11 | Kathedral Kolsch | Kolsch | Kolsch | $7.00 / 3.50 / 2.25 | 59% |
 | 12 | Cactus Garden IPA | Cactus Garden | Cactus Garden | $7.00 / 3.50 / 2.25 | **21%** |
-| DB 1 or DB 3 | Zealandia IPA (Basic City, Untappd id 5395340) | *not set up yet* | Zealandia IPA | $7.00 / 3.50 / 2.25 | – |
+| DB 1 | Crispy Bask Lager | Crispy Bask Lager (relabelled Nov 8; was "Tavern Brown Ale") | Crispy Bask Lager | $6.50 / 3.50 / 2.25 | 60% |
 | DB 2 | Guest Tap! – Falcon Smash (Triple Crossing) | Falcon Smash Triple Crossing | Falcon Smash | $8.00 / 5.00 / 2.75 | 75% |
-| DB 4 | Crispy Bask Lager | Crispy Bask Lager (switched Nov 8) | Crispy Bask Lager | $6.50 / 3.50 / 2.25 | 60% |
+| DB 3 | *(empty)* | Grin Casket Heaven Hill Bourbon → *EMPTY (in progress) | – | – | – |
+| DB 4 | Zealandia IPA (Basic City, Untappd id 5395340) | **still labelled Crispy Bask Lager; needs a Zealandia beverage** | Zealandia IPA | $7.00 / 3.50 / 2.25 | ? |
 
-- **Draft box lines.** The draft box pours only **Falcon Smash, Crispy Bask and Zealandia**.
-  - BeerSAVER's DB 1 (Tavern Brown Ale) and DB 3 (Grin Casket Heaven Hill Bourbon) labels are stale; neither beer is on tap.
-  - Bart is checking which of those two lines Zealandia is on.
+- **Draft box lines (confirmed by Bart, Nov 8).** DB 1 = Crispy Bask, DB 2 = Falcon Smash, DB 3 = empty, DB 4 = Zealandia.
+  - The DB lines sit under the **Taproom** bar in BeerSAVER. That's only report grouping, and it's fine.
+  - The "3 Draft Box" bar has no lines assigned, which is why it shows no data.
+  - The real problem was **stale line labels**. Pours were credited to the wrong beers, and the Toast sales for Crispy Bask and Zealandia had no line to match.
 - **Changes made Nov 8:**
   - Tap numbers set on every line.
   - Blood Orange Gose added.
   - Watermelon Gose removed (it's in Menu History).
-  - Crispy Bask moved to DB 4.
   - Zealandia added.
-  - In BeerSAVER, DB 4 switched to Crispy Bask Lager.
+  - In BeerSAVER, DB 1 changed from Tavern Brown to Crispy Bask Lager (60%).
+  - DB 4 was set to Crispy Bask by mistake and still needs to become Zealandia.
 - **The Foundry's 6 BeerSAVER lines** (Waynesbeeroh, Tavern Brown, 6th Lord ×2, Falcon Smash, Baby Bask) aren't part of this Untappd venue.
 
 ### Packaged Beer (to-go), as listed on Untappd
@@ -142,10 +144,10 @@ Each item needs Bart's OK before it's changed.
 
 0. **The draft box meters aren't recording pours.** See the table above.
 
-1. **Find out which line Zealandia is on (DB 1 or DB 3).**
-   - Then set that BeerSAVER line to Zealandia; a Zealandia beverage has to be created or linked in BeerSAVER first.
-   - Set the other line to *EMPTY.
-   - Give Zealandia that tap number in Untappd.
+1. **Finish the BeerSAVER draft box cleanup.**
+   - **DB 4:** create a "Zealandia IPA" beverage, then switch DB 4 to it and set the keg level.
+   - **DB 3:** set to *EMPTY.
+   - **LINKING:** relink Zealandia's Toast buttons (16, 8, 4 and 24oz) from Lady IPA to Zealandia, and confirm Crispy Bask's buttons point to "Crispy Bask Lager".
 2. **Add Baby Bask and Golden Child 6-packs to the Untappd packaged menu.** Prices: Baby Bask $10.99, Golden Child $11.50.
 3. **Mayor of Munich 6-packs and Gringo 4-packs.** Confirm they're on the shelf; otherwise remove them.
    - Gringo also has no price on Untappd.
