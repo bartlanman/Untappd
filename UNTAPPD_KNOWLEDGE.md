@@ -147,16 +147,14 @@ BeerSAVER figures are from the Custom Variance report, Taproom bar, Nov 1 6:00 A
 ### Open issues
 Each item needs Bart's OK before it's changed.
 
-0. **The draft box meters aren't recording pours.** See the table above.
-
-1. **Draft box in BeerSAVER (done Nov 8).**
+1. **Draft box in BeerSAVER (done Nov 8).** The meters work. The mismatch came from stale line labels and wrong button links, not from broken meters.
    - DB 4 is **Untitled Art New Zealand Lager** at 25%, standing in for Zealandia.
    - Toast's Zealandia IPA 16, 8, 4 and 24oz buttons are relinked from Lady IPA to it.
    - Crispy Bask's buttons already point to Crispy Bask Lager.
    - **Still open:** Falcon Smash's four Tap Room buttons (16, 8, 4, 24oz) are **not linked** in BeerSAVER LINKING, so its taproom sales don't count against DB 2.
-4. **Low kegs.** Pils (19%), Cactus Garden (21%) and Blood Orange Gose (27%). Load the replacements into On Deck.
-6. **Zealandia's ABV is blank in the Untappd database.** Fix it on the brewery page.
-7. **Guest beer names.** Untappd puts "Guest Tap! –" in front of guest beer names. A separate "Guest Taps" section is the alternative.
+2. **Low kegs.** Pils (19%), Cactus Garden (21%) and Blood Orange Gose (27%). Load the replacements into On Deck.
+3. **Zealandia's ABV is blank in the Untappd database.** Fix it on the brewery page.
+4. **Guest beer names.** Untappd puts "Guest Tap! –" in front of guest beer names. A separate "Guest Taps" section is the alternative.
 
 ---
 
