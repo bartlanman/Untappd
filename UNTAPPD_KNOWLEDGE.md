@@ -3,7 +3,7 @@
 The working reference for running Basic City's Untappd for Business (UTFB) account and keeping the taproom tap list and to-go list accurate.
 
 - **Owner:** Bart Lanman
-- **Last full audit:** November 8, 2026, taken from the live account and the official UTFB Help Center and API docs.
+- **Last full audit:** November 8, 2026, taken from the live account (Untappd, BeerSAVER and Toast) and the official UTFB Help Center and API docs.
 - **Keeping it current:** Update the "Live Snapshot" section whenever the menus change in a big way.
 
 ---
@@ -43,36 +43,44 @@ The working reference for running Basic City's Untappd for Business (UTFB) accou
 
 ---
 
-## 2. Live snapshot: November 8, 2026
+## 2. Live snapshot: November 8, 2026 (Untappd ↔ BeerSAVER ↔ Toast matched)
 
-### Beer on Tap! → Draft (14 lines)
-Prices are 16oz / 8oz / 4oz.
+### Tap map: Taproom (Beer on Tap! → Draft, sorted by tap number)
+- **Line names.** Tap numbers in Untappd use the BeerSAVER line names exactly: `1`–`12` for the taproom taps and `DB 1`–`DB 4` for the draft box. Untappd accepts text tap numbers.
+- **Prices.** Shown as 16oz / 8oz / 4oz, taken from Toast's "Tap Room Beers" menu.
+- **Keg levels.** From BeerSAVER on the morning of Nov 8.
 
-| # | Beer | Brewery | Style | ABV | Untappd rating (count) | Prices |
-|---|---|---|---|---|---|---|
-| 1 | Kathedral Kolsch | Basic City | Kölsch | 4.8 | 3.68 (185) | $7.00 / 3.50 / 2.25 |
-| 2 | Our Daily Pils | Basic City | Pilsner – German | 4.7 | 3.60 (3,587) | $6.00 / 3.50 / 2.25 |
-| 3 | Mayor of Munich Oktoberfest | Basic City | Festbier | 5.4 | 3.77 (435) | $7.00 / 3.50 / 2.25 |
-| 4 | The Hornig Amber Lager | Basic City | Lager – Amber/Red | 5.4 | 3.70 (845) | $6.50 / 3.50 / 2.25 |
-| 5 | Crispy Bask Lager | Basic City | IPL | 4.5 | 3.66 (216) | $6.50 / 3.50 / 2.25 |
-| 6 | Brujula Mexican Lager | Basic City | Lager – Mexican | 4.7 | 3.67 (556) | $7.00 / 3.50 / 2.25 |
-| 7 | The 6th Lord IPA | Basic City | IPA – American | 5.3 | 3.73 (11,323) | $7.00 / 3.50 / 2.25 |
-| 8 | Cactus Garden IPA | Basic City | IPA – American | 6.7 | 3.71 (253) | $7.00 / 3.50 / 2.25 |
-| 9 | Baby Bask Session IPA | Basic City | IPA – NE/Hazy | 5.0 | 3.78 (2,321) | $7.00 / 3.50 / 2.25 |
-| 10 | Golden Child IPA | Basic City | IPA – NE/Hazy | 6.5 | 3.81 (488) | $7.00 / 3.50 / 2.25 |
-| 11 | Bask DIPA | Basic City | DIPA – NE/Hazy | 7.6 | 3.96 (9,525) | $8.00 / 4.50 / 2.25 |
-| 12 | Guest Tap! – Tavern Brown Ale | Alewerks | Brown Ale – American | 5.7 | 3.63 (19,807) | $7.00 / 3.50 / 2.25 |
-| 13 | Guest TAp! – Watermelon Gose | Three Notch'd | Sour – Fruited Gose | 5.1 | 3.70 (9,249) | $7.00 / 3.50 / 2.25 |
-| 14 | Guest Tap! – Falcon Smash | Triple Crossing | IPA – American | 7.0 | 3.97 (38,889) | $8.00 / 5.00 / 2.75 |
+| Line | Untappd name | BeerSAVER name | Toast name | Prices | Keg left |
+|---|---|---|---|---|---|
+| 1 | The Hornig Amber Lager | The Hornig Lager | Hornig | $6.50 / 3.50 / 2.25 | 87% |
+| 2 | Our Daily Pils | Our Daily Pils | Daily Pils | $6.00 / 3.50 / 2.25 | **19%** |
+| 3 | The 6th Lord IPA | The 6th Lord IPA | 6th Lord | $7.00 / 3.50 / 2.25 | 44% |
+| 4 | Guest Tap! – Blood Orange Gose (Three Notch'd) | Three Notch'd Blood Orange Gose | Blood Orange Gose | $7.00 / 3.50 / 2.25 | 27% |
+| 5 | Bask DIPA | Bask | Bask DIPA / Bask | $8.00 / 4.50 / 2.25 | 53% |
+| 6 | Guest Tap! – Tavern Brown Ale (Alewerks) | Tavern Ale | Tavern Ale | $7.00 / 3.50 / 2.25 | 51% |
+| 7 | Mayor of Munich Oktoberfest | Mayor of Munich | Mayor of Munich | $7.00 / 3.50 / 2.25 | 62% |
+| 8 | Baby Bask Session IPA | Baby Bask IPA | Baby Bask | $7.00 / 3.50 / 2.25 | 97% |
+| 9 | Golden Child IPA | Golden Child Bask IPA | Golden Child | $7.00 / 3.50 / 2.25 | 77% |
+| 10 | Brujula Mexican Lager | Brujula Mexican Lager | Brujula | $7.00 / 3.50 / 2.25 | 86% |
+| 11 | Kathedral Kolsch | Kolsch | Kolsch | $7.00 / 3.50 / 2.25 | 59% |
+| 12 | Cactus Garden IPA | Cactus Garden | Cactus Garden | $7.00 / 3.50 / 2.25 | **21%** |
+| DB 1 or DB 3 | Zealandia IPA (Basic City, Untappd id 5395340) | *not set up yet* | Zealandia IPA | $7.00 / 3.50 / 2.25 | – |
+| DB 2 | Guest Tap! – Falcon Smash (Triple Crossing) | Falcon Smash Triple Crossing | Falcon Smash | $8.00 / 5.00 / 2.75 | 75% |
+| DB 4 | Crispy Bask Lager | Crispy Bask Lager (switched Nov 8) | Crispy Bask Lager | $6.50 / 3.50 / 2.25 | 60% |
 
-- **On Deck:** empty.
-- **Last edited:** Oct 29, 2026.
-- **Price pattern:**
-  - House pints are $6.00–$8.00. The 8oz pour is $3.50, except DIPA at $4.50.
-  - The 4oz taster is $2.25.
-  - Premium guest beers run +$1 per pint.
+- **Draft box lines.** The draft box pours only **Falcon Smash, Crispy Bask and Zealandia**.
+  - BeerSAVER's DB 1 (Tavern Brown Ale) and DB 3 (Grin Casket Heaven Hill Bourbon) labels are stale; neither beer is on tap.
+  - Bart is checking which of those two lines Zealandia is on.
+- **Changes made Nov 8:**
+  - Tap numbers set on every line.
+  - Blood Orange Gose added.
+  - Watermelon Gose removed (it's in Menu History).
+  - Crispy Bask moved to DB 4.
+  - Zealandia added.
+  - In BeerSAVER, DB 4 switched to Crispy Bask Lager.
+- **The Foundry's 6 BeerSAVER lines** (Waynesbeeroh, Tavern Brown, 6th Lord ×2, Falcon Smash, Baby Bask) aren't part of this Untappd venue.
 
-### Packaged Beer (to-go)
+### Packaged Beer (to-go), as listed on Untappd
 | Section | Beer | Style | ABV | Prices |
 |---|---|---|---|---|
 | 6-pack 12oz | Mayor of Munich | Festbier | 5.4 | 6pk $10.99 · case $39.90 |
@@ -86,23 +94,87 @@ Prices are 16oz / 8oz / 4oz.
 
 - **Last edited:** Sep 28, 2026.
 
-### Open issues found during the audit
-Nothing has been changed yet; each of these needs Bart's OK.
+### Packaged sales: Toast Product Mix, Nov 1–8, 2026 ("Taproom Packaged Beer")
+| Item (Toast name) | Qty | Price | Gross | Discounts | Net |
+|---|---|---|---|---|---|
+| SIX Baby Bask Session | 10 | $10.99 | $109.90 | $23.63 | $86.27 |
+| SIX Sixth Lord IPA | 6 | $11.50 | $69.00 | – | $69.00 |
+| SIX Our Daily Pils | 6 | $10.99 | $65.94 | $11.54 | $54.40 |
+| SIX Tart Up | 6 | $10.99 | $65.94 | $21.98 | $43.96 |
+| Six Golden Child IPA | 3 | $11.50 | $34.50 | – | $34.50 |
+| SIX Brujula | 2 | $10.99 | $21.98 | – | $21.98 |
+| Six Cactus Garden IPA | 2 | $11.50 | $23.00 | – | $23.00 |
+| **6-packs total** | **35** | | $390.26 | $57.15 | **$333.11** |
+| Four Bask (16oz 4-pack) | 13 | $14.99 | $194.87 | – | $194.87 |
+| Case Our Daily Pils | 3 | $39.90 | $119.70 | – | $119.70 |
+| Case Sixth Lord IPA | 1 | $43.70 | $43.70 | – | $43.70 |
+| **Cases total** | **4** | | $163.40 | – | **$163.40** |
+| Tart Up 12oz single can | 8 | $6.00 | $48.00 | $48.00 | $0.00 (all comped) |
 
-1. **Gringo has no container or price.** It shows as for sale with nothing to buy. Add "16oz Can 4 Pack" plus a case price, or remove it if it's sold out.
-2. **No tap numbers on any draft line.** Set 1–14 so the boards, print menus and app line up with the physical taps. Then sort by tap number.
-3. **Typo:** "Guest TAp! – Watermelon Gose" should read "Guest Tap!".
-4. **Guest names carry the "Guest Tap! –" prefix inside the beer name.**
-   - The prefix works on the board, but it changes how the beer reads in UTFB.
-   - Alternative: use a separate "Guest Taps" section and keep the original beer names.
-5. **On Deck is empty.**
-   - Park the next kegs and seasonals there; it's hidden and sends no notification.
-   - Moving a beer from On Deck into Draft sends a "new beer" push to every subscriber. That's free marketing.
-6. **Freshness.**
-   - The tap list was last touched Oct 29. Untappd says guests treat a list older than about a week as stale.
-   - Make an edit at least weekly, even if nothing changed.
-7. **Mayor of Munich Oktoberfest is still on tap and in 6-packs in November.** Confirm it's actually still pouring and on the shelf.
-8. **Container size names are inconsistent across packaged items.** "12oz 6pk", "6 Pack" and "12oz Can 6 Pack" all appear. Standardize them with **Favorite Containers**.
+- **Sales vs. the Untappd packaged menu:**
+  - **Baby Bask** (the top 6-pack seller) and **Golden Child** 6-packs are selling but **aren't on the Untappd packaged menu**.
+  - **Mayor of Munich** 6-packs are listed on Untappd but sold **0** this week.
+  - **Gringo** 4-packs aren't in Toast's sales at all.
+
+### Draft box check: Toast sales vs. BeerSAVER pours, Nov 1–8
+BeerSAVER figures are from the Custom Variance report, Taproom bar, Nov 1 6:00 AM to Nov 8 6:00 AM.
+
+| Beer | Toast sold (taproom) | BeerSAVER poured | BeerSAVER line |
+|---|---|---|---|
+| Crispy Bask Lager | 14 pours: 8×16oz, 2×8oz, 1×4oz, 3×24oz = 220 oz, $80.75 | **0 oz** (221 oz sold) | DB 4 (labelled Watermelon Gose until Nov 8): 0 oz |
+| Falcon Smash | 9 pours: 5×16oz, 1×8oz, 3×4oz = 100 oz, $51.71 | **0 oz** on DB 2 | DB 2: 0 oz |
+| Zealandia IPA | 3×24oz mugs = 72 oz, $21.00 | not a BeerSAVER beverage. Its 72 oz shows up as **"Lady IPA" sold**, so the Toast button is linked to Lady IPA in BeerSAVER LINKING. | – |
+| "Tavern Brown Ale" (DB 1 label) | – | **35 oz** poured | DB 1, which is probably really Zealandia |
+| Grin Casket / Watermelon Gose | – | 0 oz | DB 3 / DB 4 |
+
+- **What it means:** the draft box meters recorded almost nothing all week, while about 390 oz of draft-box beer sold in Toast. The "3 Draft Box" bar in BeerSAVER shows no data at all.
+- **Likely causes:**
+  - The DB 2 and DB 4 meters (and possibly the draft box controller) aren't reporting.
+  - Or the lines are wired to different meters than they're labelled.
+- **What to do:**
+  - Check the draft box meters.
+  - Relink Zealandia (16, 8, 4 and 24oz) in BeerSAVER LINKING, away from Lady IPA.
+  - Confirm whether DB 1 is Zealandia.
+- **Foundry:** Falcon Smash also pours there, at 8 sales of $8.87, through the Foundry lines.
+
+### Open issues
+Each item needs Bart's OK before it's changed.
+
+0. **The draft box meters aren't recording pours.** See the table above.
+
+1. **Find out which line Zealandia is on (DB 1 or DB 3).**
+   - Then set that BeerSAVER line to Zealandia; a Zealandia beverage has to be created or linked in BeerSAVER first.
+   - Set the other line to *EMPTY.
+   - Give Zealandia that tap number in Untappd.
+2. **Add Baby Bask and Golden Child 6-packs to the Untappd packaged menu.** Prices: Baby Bask $10.99, Golden Child $11.50.
+3. **Mayor of Munich 6-packs and Gringo 4-packs.** Confirm they're on the shelf; otherwise remove them.
+   - Gringo also has no price on Untappd.
+4. **Low kegs.** Pils (19%), Cactus Garden (21%) and Blood Orange Gose (27%). Load the replacements into On Deck.
+5. **Pack names don't match.** The 6-packs are labelled three ways ("12oz 6pk", "6 Pack", "12oz Can 6 Pack"). Standardize them with **Favorite Containers**.
+6. **Zealandia's ABV is blank in the Untappd database.** Fix it on the brewery page.
+7. **Guest beer names.** Untappd puts "Guest Tap! –" in front of guest beer names. A separate "Guest Taps" section is the alternative.
+
+---
+
+## 2a. Cross-system name map (Untappd ↔ BeerSAVER ↔ Toast)
+
+### Where each system covers what
+- **BeerSAVER** (admin.usbeersaver.com): flow meters for each line.
+  - **ON TAP:** keg levels; **UPDATE** a line to change kegs.
+  - **Keg Change History.**
+  - **VARIANCE:** poured vs. sold, per beer, each day.
+  - **LINKING:** maps Toast buttons to beverages.
+  - Three bars: **Taproom** (lines 01–12 plus DB 1–4), **Foundry** (lines 1–6) and **Draft Box**.
+- **Toast:**
+  - **Menus → Menu manager → Items** for prices. Draft pours are grouped as 16oz Pint / 8oz HP / 4oz Single / 24oz Mug under "Tap Room Beers".
+  - **Reports → Menus → Product mix** for sales. Packaged beer is the sales category "Taproom Packaged Beer". Its items are named "SIX …" (6-packs), "Four …" (4-packs) and "Case …" (cases).
+- **Untappd:** the guest-facing menu. Its tap numbers follow BeerSAVER's line names.
+
+### Keg change routine (all three systems)
+1. **BeerSAVER:** ON TAP → UPDATE on the line → choose the beverage → set keg size and level → Continue → Confirm.
+2. **Untappd:** move the beer from On Deck into Draft (or swap it in with Replace). Set the tap number to the BeerSAVER line name, and remove or replace the kicked beer.
+3. **Toast:** make sure the beer's 16oz, 8oz and 4oz buttons exist and are linked in BeerSAVER LINKING.
+
 
 ---
 
