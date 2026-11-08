@@ -64,10 +64,10 @@ The working reference for running Basic City's Untappd for Business (UTFB) accou
 | 10 | Brujula Mexican Lager | Brujula Mexican Lager | Brujula | $7.00 / 3.50 / 2.25 | 86% |
 | 11 | Kathedral Kolsch | Kolsch | Kolsch | $7.00 / 3.50 / 2.25 | 59% |
 | 12 | Cactus Garden IPA | Cactus Garden | Cactus Garden | $7.00 / 3.50 / 2.25 | **21%** |
-| DB 1 | Crispy Bask Lager | Crispy Bask Lager (relabelled Nov 8; was "Tavern Brown Ale") | Crispy Bask Lager | $6.50 / 3.50 / 2.25 | 60% |
-| DB 2 | Guest Tap! – Falcon Smash (Triple Crossing) | Falcon Smash Triple Crossing | Falcon Smash | $8.00 / 5.00 / 2.75 | 75% |
-| DB 3 | *(empty)* | Grin Casket Heaven Hill Bourbon → *EMPTY (in progress) | – | – | – |
-| DB 4 | Zealandia IPA (Basic City, Untappd id 5395340) | **still labelled Crispy Bask Lager; needs a Zealandia beverage** | Zealandia IPA | $7.00 / 3.50 / 2.25 | ? |
+| DB 1 | Crispy Bask Lager | Crispy Bask Lager (relabelled Nov 8; was "Tavern Brown Ale") | Crispy Bask Lager | $6.50 / 3.50 / 2.25 | 30% |
+| DB 2 | Guest Tap! – Falcon Smash (Triple Crossing) | Falcon Smash Triple Crossing | Falcon Smash | $8.00 / 5.00 / 2.75 | 100% (new keg Nov 8) |
+| DB 3 | *(empty)* | *EMPTY (set Nov 8) | – | – | – |
+| DB 4 | Zealandia IPA (Basic City, Untappd id 5395340) | **still labelled Crispy Bask Lager; needs a Zealandia beverage** | Zealandia IPA | $7.00 / 3.50 / 2.25 | 25% (per Bart) |
 
 - **Draft box lines (confirmed by Bart, Nov 8).** DB 1 = Crispy Bask, DB 2 = Falcon Smash, DB 3 = empty, DB 4 = Zealandia.
   - The DB lines sit under the **Taproom** bar in BeerSAVER. That's only report grouping, and it's fine.
@@ -78,8 +78,11 @@ The working reference for running Basic City's Untappd for Business (UTFB) accou
   - Blood Orange Gose added.
   - Watermelon Gose removed (it's in Menu History).
   - Zealandia added.
-  - In BeerSAVER, DB 1 changed from Tavern Brown to Crispy Bask Lager (60%).
-  - DB 4 was set to Crispy Bask by mistake and still needs to become Zealandia.
+  - **BeerSAVER DB 1:** Crispy Bask Lager at 30%.
+  - **BeerSAVER DB 2:** Falcon Smash at 100%.
+  - **BeerSAVER DB 3:** *EMPTY.
+  - **BeerSAVER DB 4:** set to Crispy Bask by mistake, and it still needs to become Zealandia.
+  - **How the levels were changed:** BeerSAVER ignores an UPDATE that keeps the same beer, so each level was set by switching the line to *EMPTY and straight back, at 11:00 and 11:01 AM.
 - **The Foundry's 6 BeerSAVER lines** (Waynesbeeroh, Tavern Brown, 6th Lord ×2, Falcon Smash, Baby Bask) aren't part of this Untappd venue.
 
 ### Packaged Beer (to-go), as listed on Untappd
@@ -146,7 +149,6 @@ Each item needs Bart's OK before it's changed.
 
 1. **Finish the BeerSAVER draft box cleanup.**
    - **DB 4:** create a "Zealandia IPA" beverage, then switch DB 4 to it and set the keg level.
-   - **DB 3:** set to *EMPTY.
    - **LINKING:** relink Zealandia's Toast buttons (16, 8, 4 and 24oz) from Lady IPA to Zealandia, and confirm Crispy Bask's buttons point to "Crispy Bask Lager".
 2. **Add Baby Bask and Golden Child 6-packs to the Untappd packaged menu.** Prices: Baby Bask $10.99, Golden Child $11.50.
 3. **Mayor of Munich 6-packs and Gringo 4-packs.** Confirm they're on the shelf; otherwise remove them.
@@ -171,6 +173,12 @@ Each item needs Bart's OK before it's changed.
   - **Menus → Menu manager → Items** for prices. Draft pours are grouped as 16oz Pint / 8oz HP / 4oz Single / 24oz Mug under "Tap Room Beers".
   - **Reports → Menus → Product mix** for sales. Packaged beer is the sales category "Taproom Packaged Beer". Its items are named "SIX …" (6-packs), "Four …" (4-packs) and "Case …" (cases).
 - **Untappd:** the guest-facing menu. Its tap numbers follow BeerSAVER's line names.
+
+### Changing a keg level in BeerSAVER
+- **Same beer, wrong level.** UPDATE won't save a change that keeps the same beer. Switch the line to *EMPTY, then UPDATE it back to the beer with the correct level.
+- **Same beer, fresh full keg.** "Retap Same Beer Keg" is for this.
+- **Always pick a keg size** (e.g. Regular|Domestic 15.5 gal) before Continue. Otherwise a browser pop-up blocks the page.
+- **Adding a beverage.** New beverages (e.g. Zealandia IPA) can't be created from the admin screens; ask BeerSAVER support.
 
 ### Keg change routine (all three systems)
 1. **BeerSAVER:** ON TAP → UPDATE on the line → choose the beverage → set keg size and level → Continue → Confirm.
