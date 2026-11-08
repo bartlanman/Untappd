@@ -67,7 +67,7 @@ The working reference for running Basic City's Untappd for Business (UTFB) accou
 | DB 1 | Crispy Bask Lager | Crispy Bask Lager (relabelled Nov 8; was "Tavern Brown Ale") | Crispy Bask Lager | $6.50 / 3.50 / 2.25 | 30% |
 | DB 2 | Guest Tap! – Falcon Smash (Triple Crossing) | Falcon Smash Triple Crossing | Falcon Smash | $8.00 / 5.00 / 2.75 | 100% (new keg Nov 8) |
 | DB 3 | *(empty)* | *EMPTY (set Nov 8) | – | – | – |
-| DB 4 | Zealandia IPA (Basic City, Untappd id 5395340) | **still labelled Crispy Bask Lager; needs a Zealandia beverage** | Zealandia IPA | $7.00 / 3.50 / 2.25 | 25% (per Bart) |
+| DB 4 | Zealandia IPA (Basic City, Untappd id 5395340) | **Untitled Art New Zealand Lager** (stand-in; BeerSAVER has no Zealandia) | Zealandia IPA | $7.00 / 3.50 / 2.25 | 25% (per Bart) |
 
 - **Draft box lines (confirmed by Bart, Nov 8).** DB 1 = Crispy Bask, DB 2 = Falcon Smash, DB 3 = empty, DB 4 = Zealandia.
   - The DB lines sit under the **Taproom** bar in BeerSAVER. That's only report grouping, and it's fine.
@@ -85,19 +85,21 @@ The working reference for running Basic City's Untappd for Business (UTFB) accou
   - **How the levels were changed:** BeerSAVER ignores an UPDATE that keeps the same beer, so each level was set by switching the line to *EMPTY and straight back, at 11:00 and 11:01 AM.
 - **The Foundry's 6 BeerSAVER lines** (Waynesbeeroh, Tavern Brown, 6th Lord ×2, Falcon Smash, Baby Bask) aren't part of this Untappd venue.
 
-### Packaged Beer (to-go), as listed on Untappd
-| Section | Beer | Style | ABV | Prices |
-|---|---|---|---|---|
-| 6-pack 12oz | Mayor of Munich | Festbier | 5.4 | 6pk $10.99 · case $39.90 |
-| 6-pack 12oz | Cactus Garden | IPA – American | 6.7 | 6pk $11.50 · case $43.70 |
-| 6-pack 12oz | Brujula | Lager – Mexican | 4.7 | 6pk $10.99 · case $39.90 |
-| 6-pack 12oz | Tart Up: Raspberry | Sour – Fruited | 4.7 | 6pk $10.99 · case $39.90 |
-| 6-pack 12oz | The 6th Lord | IPA – American | 5.3 | 6pk $11.50 · case $43.70 |
-| 6-pack 12oz | Our Daily Pils | Pilsner – German | 4.7 | 6pk $10.99 · case $39.90 |
-| 4-pack 16oz | Gringo | Imperial Stout | 9.0 | **no containers or prices** |
-| 4-pack 16oz | Bask DIPA | DIPA – NE/Hazy | 7.6 | 4pk $14.99 · case $85.44 |
+### Packaged Beer (to-go) on Untappd, updated Nov 8 to match what's in stock
+Containers are standardized to "12oz Can 6 Pack" and "12oz Can Case"; prices are from Toast.
 
-- **Last edited:** Sep 28, 2026.
+| Section | Beer | 6-pack (or 4-pack) | Case |
+|---|---|---|---|
+| 6 Pack Cans 12oz | Baby Bask | $10.99 | $43.70 |
+| 6 Pack Cans 12oz | Cactus Garden | $11.50 | $43.70 |
+| 6 Pack Cans 12oz | Golden Child | $11.50 | $43.70 |
+| 6 Pack Cans 12oz | Our Daily Pils | $10.99 | $39.90 |
+| 6 Pack Cans 12oz | Tart Up: Raspberry | $10.99 | $39.90 |
+| 6 Pack Cans 12oz | The 6th Lord | $11.50 | $43.70 |
+| 4 Pack Cans 16oz | Bask DIPA | $14.99 (4-pack) | $85.44 |
+
+- **Removed Nov 8 (in Menu History):** Mayor of Munich, Brujula and Gringo.
+- **Price oddity:** Toast prices the Baby Bask case at $43.70 although its 6-pack is $10.99. Every other $10.99 beer has a $39.90 case. Check which is right.
 
 ### Packaged sales: Toast Product Mix, Nov 1–8, 2026 ("Taproom Packaged Beer")
 | Item (Toast name) | Qty | Price | Gross | Discounts | Net |
@@ -147,14 +149,12 @@ Each item needs Bart's OK before it's changed.
 
 0. **The draft box meters aren't recording pours.** See the table above.
 
-1. **Finish the BeerSAVER draft box cleanup.**
-   - **DB 4:** create a "Zealandia IPA" beverage, then switch DB 4 to it and set the keg level.
-   - **LINKING:** relink Zealandia's Toast buttons (16, 8, 4 and 24oz) from Lady IPA to Zealandia, and confirm Crispy Bask's buttons point to "Crispy Bask Lager".
-2. **Add Baby Bask and Golden Child 6-packs to the Untappd packaged menu.** Prices: Baby Bask $10.99, Golden Child $11.50.
-3. **Mayor of Munich 6-packs and Gringo 4-packs.** Confirm they're on the shelf; otherwise remove them.
-   - Gringo also has no price on Untappd.
+1. **Draft box in BeerSAVER (done Nov 8).**
+   - DB 4 is **Untitled Art New Zealand Lager** at 25%, standing in for Zealandia.
+   - Toast's Zealandia IPA 16, 8, 4 and 24oz buttons are relinked from Lady IPA to it.
+   - Crispy Bask's buttons already point to Crispy Bask Lager.
+   - **Still open:** Falcon Smash's four Tap Room buttons (16, 8, 4, 24oz) are **not linked** in BeerSAVER LINKING, so its taproom sales don't count against DB 2.
 4. **Low kegs.** Pils (19%), Cactus Garden (21%) and Blood Orange Gose (27%). Load the replacements into On Deck.
-5. **Pack names don't match.** The 6-packs are labelled three ways ("12oz 6pk", "6 Pack", "12oz Can 6 Pack"). Standardize them with **Favorite Containers**.
 6. **Zealandia's ABV is blank in the Untappd database.** Fix it on the brewery page.
 7. **Guest beer names.** Untappd puts "Guest Tap! –" in front of guest beer names. A separate "Guest Taps" section is the alternative.
 
@@ -173,6 +173,15 @@ Each item needs Bart's OK before it's changed.
   - **Menus → Menu manager → Items** for prices. Draft pours are grouped as 16oz Pint / 8oz HP / 4oz Single / 24oz Mug under "Tap Room Beers".
   - **Reports → Menus → Product mix** for sales. Packaged beer is the sales category "Taproom Packaged Beer". Its items are named "SIX …" (6-packs), "Four …" (4-packs) and "Case …" (cases).
 - **Untappd:** the guest-facing menu. Its tap numbers follow BeerSAVER's line names.
+
+### Linking Toast buttons in BeerSAVER (LINKING page)
+1. Filter the category to **Tap Room Beers** and set the page size to 100.
+2. **Tick the row's checkbox** to make its dropdowns editable.
+3. Pick the beverage and size.
+4. Click **Save Changes**.
+
+- Only beverages already on the inventory list appear in the dropdowns.
+- The beverage search on the keg UPDATE page also reaches BeerSAVER's global catalog. That's how "Untitled Art New Zealand Lager" was found.
 
 ### Changing a keg level in BeerSAVER
 - **Same beer, wrong level.** UPDATE won't save a change that keeps the same beer. Switch the line to *EMPTY, then UPDATE it back to the beer with the correct level.
